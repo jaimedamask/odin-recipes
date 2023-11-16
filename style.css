@@ -6,7 +6,22 @@
     padding: 0;
 }
 
+/* Actual styling begins */
+
 body {
+    background: #90e0ef;
+    color: #03045e;
     font-family: Helvetica, sans-serif;
+    line-height: 1.5;
     margin: 50px 75px;
 }
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+section {
+    padding: 15px 0;
+}
+
