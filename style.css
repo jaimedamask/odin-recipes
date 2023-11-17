@@ -18,10 +18,70 @@ body {
 
 h1 {
     font-size: 48px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
 section {
-    padding: 15px 0;
+    padding-bottom: 20px;
 }
 
+
+/* Cookie and chip style */
+.cookie {
+    background: #DC8821;
+    border-radius: 50%;
+    height: 350px;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.chip {
+    background: #422707;
+    border-radius: 5px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.first {
+    left: 20%;
+    top: 20%;
+    transform: rotate(25deg);
+}
+
+.second {
+    left: 48%;
+    top: -2%;
+    transform: rotate(-20deg);
+}
+
+.third {
+    left: 45%;
+    top: 17%;
+    transform: rotate(45deg);
+}
+
+.fourth {
+    left: 13%;
+    top: 20%;
+    transform: rotate(75deg);
+}
+
+.fifth {
+    left: 43%;
+    top: 28%;
+    transform: rotate(110deg);
+}
+
+.sixth {
+    left: 77%;
+    top: 0;
+    transform: rotate(15deg);
+}
+
+.seventh {
+    left: 75%;
+    top: -45%;
+    transform: rotate(-45deg);
+}
