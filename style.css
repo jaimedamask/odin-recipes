@@ -26,8 +26,18 @@ section {
     padding-bottom: 20px;
 }
 
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 
-/* Cookie and chip style */
+.attribution {
+    font-size: small;
+}
+
+
+/* Cookie and chip style for home page */
 .cookie {
     background: #DC8821;
     border-radius: 50%;
