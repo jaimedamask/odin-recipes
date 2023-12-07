@@ -68,10 +68,6 @@ section {
     width: 300px;
 }
 
-.nav-child {
-    display: inline-block;
-}
-
 /* Dropdown Button */
 .nav-btn {
     /* background-color: #00B4D8; */
