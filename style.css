@@ -13,7 +13,7 @@ body {
     color: #03045e;
     font-family: Helvetica, sans-serif;
     line-height: 1.5;
-    margin: 50px 75px;
+    margin: 25px 25px;
 }
 
 h1 {
@@ -68,10 +68,12 @@ section {
     width: 300px;
 }
 
-/* Dropdown Navigation */
+.nav-child {
+    display: inline-block;
+}
 
 /* Dropdown Button */
-.dropdown-btn {
+.nav-btn {
     /* background-color: #00B4D8; */
     background-color: #0077B6;
     border: none;
@@ -84,6 +86,12 @@ section {
 /* Container div to position dropdown */
 .nav-links {
     display: inline;
+    position: relative;
+}
+
+/* Positions dropdown content */
+.dropdown {
+    display: inline-block;
     position: relative;
 }
 
